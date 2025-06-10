@@ -1,3 +1,7 @@
+// The editor also exposes the codra blocks that can be used to program with. 
+// It should display a pane of templates, which is the code blocks without any values. 
+// And then it should display another pane, for context aware code blocks. Like function calls, or module imports.
+
 import { createSignal, onMount, type Component } from "solid-js";
 
 interface EditorProps {
